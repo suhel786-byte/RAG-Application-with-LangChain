@@ -1,1 +1,19 @@
+# Environment variables
 .env
+
+# Chroma / vector databases (VERY IMPORTANT)
+chroma/
+*.sqlite3
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
